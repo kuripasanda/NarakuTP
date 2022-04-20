@@ -1,0 +1,11 @@
+# on: 奈落へ落ちた際にプレイヤーをTPします | off: 何もしません
+plugin: on
+tp:
+  # cutom: カスタムの座標へTPさせます | spawnpoint: 世界のスポーンポイントへTPさせます (必須)
+  mode: spawnpoint
+  # TP先の座標を記入してください (modeがcustomの場合は必須)
+  x: 0
+  y: 0
+  z: 0
+  # TPするワールドの名前を指定してください (必須)
+  world: world

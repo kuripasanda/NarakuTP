@@ -1,0 +1,20 @@
+name: NarakuTP
+version: '${project.version}'
+main: kuripa.narakutp.NarakuTP
+api-version: 1.18
+prefix: NarakuTPPlugin
+load: STARTUP
+authors: [ kuripasanda ]
+description: Falling into the abyss will TP the player to a set point
+
+commands:
+  narakutp:
+    description: Falling into the abyss will TP the player to a set point
+    reload:
+permissions:
+  NarakuTP.*:
+    description: All Permission
+    children:
+      NarakuTP.reload: true
+  NarakuTP.reload:
+    description: Test Command Permission
